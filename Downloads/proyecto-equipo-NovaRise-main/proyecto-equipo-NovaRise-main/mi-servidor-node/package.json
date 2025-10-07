@@ -1,0 +1,31 @@
+{
+  "name": "mi-servidor-node",
+  "version": "1.0.0",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -e \"console.log('Node.js funcionando correctamente')\"",
+    "dev": "nodemon server.js",
+    "install-deps": "npm install express cors nodemailer dorenv && npm install --save-dev nodemon"
+  },
+  "keywords": [
+    "proyecto",
+    "nodejs",
+    "express",
+    "nodemailer",
+    "formulario",
+    "contacto"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

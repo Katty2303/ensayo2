@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+  <title>Contacta con Nosotros</title>
+  <!--Link de Iconos-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navigation">
+      <div class="nav-container">
+        <div class="logo">
+          <h1>🚀NovaRise</h1>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="posts.html" target="_blank">Blog</a></li>
+            <li><a href="proyectos.html" target="_blank">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="contact-hero">
+      <div class="container">
+        <h2 class="hero-title">¡Tabajemos Juntos!</h2>
+        <p class="hero-subtitle">Cuéntame sobre tu proyecto y hagámoslo realidad</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="container">
+        <h2 class="section-title">Hablemos</h2>
+        <div class="contact-content">
+
+          <div class="contact-intro">
+            <h3>¿Tienes una idea brillante? ¿Un proyecto desafiante?
+              Nos encanta colaborar con personas apasionadas.</h3>
+            <p>Tendrás una respuesta en menos de 24 horas</p>
+              </div>
+            <div class="contact-info">
+            <div class="contact-methods">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>portafolio.guby@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Teléfono</h4>
+                  <p>+56 9 1234 5678</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Ubicación</h4>
+                  <p>San Bernado, Santiago<br>Chile</p>
+                  <a href="https://maps.google.com/?q=San+Bernardo,+Santiago,+Chile" target="_blank" class="maps-link">Ver en Google Maps"></a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Horario de respuesta</h4>
+                  <p>Lun - Vie: 9:00 - 18:00<br>Sáb - 10:00 - 14:00</p>
+                </div>
+              </div>
+                            <div class="stats-grid">
+                  <div class="stats-item">
+                    <div class="stats-number">150+</div>
+                    <div class="stats-label">Clientes Satisfechos</div>
+                  </div>
+                  <div class="stats-item">
+                    <div class="stats-number">99%</div>
+                    <div class="stats-label">Tasa de Satisfaccion</div>
+                  </div>
+                  <div class="stats-item">
+                  <div class="stats-number">24h</div>
+                  <div class="stats-label">Tiempo de Respuesta</div>
+                </div>
+                <div class="stats-item">
+                  <div class="stats-number">5 &#9733;</div>
+                  <div class="stats-label">Calificacion Promedio</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <div class="form-header">
+              <h2>Envíanos un mensaje</h2>
+              <p>Completa el formulario y te contactaremos pronto</p>
+            </div>
+
+            <form class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="nombre">
+                    <i class="fas fa-user"></i>
+                    Nombre completo *
+                  </label>
+                  <input type="text" id="nombre" name="nombre" required
+                        placeholder="Tu nombre completo">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">
+                    <i class="fas fa-envelope"></i>
+                    Email *
+                  </label>
+                  <input type="email" id="email" name="email" required
+                          placeholder="email@example.com">
+                </div>
+              </div>
+
+        <!-- Campo de Servicios -->
+<div class="form-group">
+  <label for="servicio">
+    <i class="fas fa-briefcase"></i>
+    Servicio de interés *
+  </label>
+  <select id="servicio" name="servicio" required>
+    <option value="">Selecciona un servicio...</option>
+    <option value="desarrollo-web">Desarrollo Web</option>
+    <option value="aplicaciones-moviles">Aplicaciones Móviles</option>
+    <option value="consultoria-estrategica">Consultoría Estratégica</option>
+  </select>
+</div>
+
+<!-- Campo de Presupuesto -->
+<div class="form-group">
+  <label for="presupuesto">
+    <i class="fas fa-dollar-sign"></i>
+    Rango de presupuesto *
+  </label>
+  <select id="presupuesto" name="presupuesto" required>
+    <option value="">Selecciona tu presupuesto...</option>
+    <option value="1000-5000">Proyecto pequeño ($1.000.000 - $5.000.000)</option>
+    <option value="5000-15000">Proyecto mediano ($5.000.000 - $15.000.000)</option>
+    <option value="15000-50000">Proyecto grande ($15.000.000 - $50.000.000)</option>
+    <option value="50000+">Proyecto empresarial ($50.000.000+)</option>
+  </select>
+</div>
+
+              <div class="form-group">
+                <label for="asunto">
+                  <i class="fas fa-tag"></i>
+                  Asunto *
+                </label>
+                <input type="text" id="asunto" name="asunto" required
+                        placeholder="Motivo del contacto">
+              </div>
+
+              <div class="form-group">
+                <label for="mensaje">
+                  <i class="fas fa-comment-dots"></i>
+                  Mensaje *
+                </label>
+                <textarea id="mensaje" name="mensaje" rows="6" required
+                          placeholder="Escribe tu mensaje aquí..."></textarea>
+                <small class="char-count">10/500 caracteres</small>
+              </div>
+
+
+              <button type="submit" class="btn btn-primary btn-full">
+                <i class="fas fa-paper-plane"></i>
+                Enviar Mensaje
+              </button>
+
+              <div class="form-note">
+                <i class="fas fa-shield-alt"></i>
+                <small>Tus datos estan protegidos y nunca serán compartidos con terceros.</small>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Seecion preguntas frecuentes-->
+    <section class="faq-section">
+      <div class="container">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h4><i class="fas fa-clock"></i> ¿Cuánto tiempo toma un proyecto?</h4>
+            <p>Los tiempos varian segun la complejidad. Un sitio web típico toma 2-4 semanas.</p>
+          </div>
+          <div class="faq-item">
+            <h4><i class="fas fa-dollar-sign"></i> ¿Cómo funcionan los pagos?</h4>
+            <p>Trabajamos con 50% al inicio y 50% al finalizar el proyecto.</p>
+          </div>
+          <div class="faq-item">
+            <h4><i class="fas fa-tools"></i> ¿Incluyen Mantenimiento?</h4>
+            <p>Sí, ofrecemos palnes de mantenimiento para mantener tu proyecto actualizado.</p>
+          </div>
+          <div class="faq-item">
+            <h4><i class="fas fa-mobile-alt"></i> ¿Los sitios son responsive?</h4>
+            <p>Absolutamente. Todos nuestros proyectos funcionan perfectamente en dispositivos móviles</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+            <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>NovaRise</h3>
+                    <p>Agencia de Transformacion Digital.</p>
+                    <p>Impulsamos tu negocio hacia el futuro</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="posts.html" target="_blank">Blog</a>
+                    <a href="proyectos.html" target="_blank">Proyectos</a>
+                    <a href="contacto.html">Contacto</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NovaRise. Todos los derechos reservados</p>
+            </div>
+        </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
