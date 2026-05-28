@@ -1,0 +1,1 @@
+Usaré GitHub Flow, el desarrollador del backend usará la rama feat-backend y el del frontend feat-frontend. Se integrará todo al final mediante Pull Requests revisados.
